@@ -8,7 +8,7 @@ namespace BooksLib.Services
     public class BooksSampleRepository : IBooksRepository
     {
         private List<Book> _books;
-        public BooksSampleRepository()
+        public void BooksSampleRepository()
         {
             InitSampleBooks();
         }
